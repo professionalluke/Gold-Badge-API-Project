@@ -1,6 +1,6 @@
 body {
     font-family: calibri;
-    background: url('../api-project/assets/guitar.jpg');
+    background: url('./assets/guitar.jpg');
     background-size: cover;
 }
 
