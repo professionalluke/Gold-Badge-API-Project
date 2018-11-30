@@ -1,22 +1,40 @@
 body {
     font-family: calibri;
+    background: url('../api-project/assets/guitar.jpg');
+    background-size: cover;
 }
 
+a:link {
+    color: rgb(250, 7, 7);
+}
+
+#link{
+    color:rgb(250, 7, 7);
+}
 .wrapper{
     width: 80%;
     margin: 0 auto;
     display: flex;
+    color: white;
 }
 
-.controls, .results {
+.controls{
     flex:1;
     padding: 10px;
+    margin-left: 10px;
+   
+}
+
+.results{
+    margin-left: 10px;
+    
 }
 
 form p:nth-of-type(1) {
-    margin-top: 0;
+    margin-top: 10;
 }
 
 h1 {
     text-align:center;
+    color:white;
 }
